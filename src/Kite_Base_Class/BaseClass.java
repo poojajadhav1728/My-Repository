@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BaseClass 
 {
+	//This is base class
 	protected WebDriver driver;
 	
 	//Browser setup
