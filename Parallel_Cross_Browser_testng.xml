@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test name="chromeTestTest">
+<parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="POM_with_Excel_Reading.Kite_Excel_CrossBrowserTesting"/>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="firefoxTest">
+<parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="POM_with_Excel_Reading.Kite_Excel_CrossBrowserTesting"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

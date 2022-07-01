@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="launch2">
+    <classes>
+      <class name="GroupingTestNG.launch1"/>
+      <class name="GroupingTestNG.GroupingTest2"/>
+      <class name="GroupingTestNG.GroupingTest1"/>
+      <class name="GroupingTestNG.GroupingTest3"/>
+    </classes>
+  </test> <!-- launch2 -->
+</suite> <!-- Suite -->
