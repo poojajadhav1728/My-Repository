@@ -13,6 +13,7 @@ public class GroupingTest1 {
 	  public void myMethod2() 
 	  {
 			 Reporter.log("myMethod2 is running", true);
+		  //updated by Pooja
 
 	  }
 	  @Test (groups = "retesting")
